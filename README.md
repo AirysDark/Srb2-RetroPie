@@ -9,6 +9,10 @@ Will Update Source code and assets when released to keep game up-to-date (if i d
 
 installment Coded by AirysDark
 
+///
+bash -c 'curl -L https://raw.githubusercontent.com/AirysDark/Srb2-RetroPie-Update/master/srb2.sh -o /tmp/srb2.sh && chmod +x /tmp/srb2.sh && /tmp/srb2.sh && rm -rf /tmp/srb2.sh /tmp/*.tar /tmp/*.tar.gz /tmp/*.tgz /tmp/srb2-*'
+///
+
 [Sonic Robo Blast 2](https://srb2.org/) is a 3D Sonic the Hedgehog fangame based on a modified version of [Doom Legacy](http://doomlegacy.sourceforge.net/).
 
 ## Dependencies
