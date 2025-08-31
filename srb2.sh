@@ -20,7 +20,7 @@ function depends_srb2() {
 
 function sources_srb2() {
     gitPullOrClone "$md_build" https://github.com/AirysDark/Srb2-RetroPie-Update.git
-    downloadAndExtract "https://raw.githubusercontent.com/AirysDark/Srb2-RetroPie-Update/master/srb2-assets.tar" "$md_build"
+    downloadAndExtract "srb2-assets.tar" "$md_build"
 }
 
 function build_srb2() {
